@@ -1,0 +1,15 @@
+# Ignore dataset
+data/raw/
+data/processed/
+
+# Ignore numpy arrays
+*.npy
+
+# Ignore model weights
+*.h5
+*.ckpt
+*.pth
+
+# Ignore cache
+__pycache__/
+*.pyc
