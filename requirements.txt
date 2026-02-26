@@ -1,4 +1,5 @@
-tensorflow==2.15.0
-opencv-python
+tensorflow>=2.10
 numpy
+opencv-python
 matplotlib
+scipy
