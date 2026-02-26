@@ -1,7 +1,7 @@
 # Ignore dataset
 data/raw/
 data/processed/
-
+jange
 # Ignore numpy arrays
 *.npy
 
