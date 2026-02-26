@@ -1,9 +1,9 @@
 import os
 
 # ─── Dataset Paths ────────────────────────────────────────────────────────────
-DATASET_ROOT = "/mnt/c/Users/jange/Downloads/archive/tiny-imagenet-200"
-TRAIN_DIR    = "/mnt/c/Users/jange/Downloads/archive/tiny-imagenet-200/train"
-TEST_DIR     = "/mnt/c/Users/jange/Downloads/archive/tiny-imagenet-200/val/images"
+DATASET_ROOT = "{Dataset_Path}"
+TRAIN_DIR    = "{Dataset Path}/train"
+TEST_DIR     = "{Dataset Path}/val/images"
 
 # ─── Data ─────────────────────────────────────────────────────────────────────
 IMAGE_SIZE     = (64, 64, 3)          # H × W × C
