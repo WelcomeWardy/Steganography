@@ -8,7 +8,7 @@ The project reproduces the encoder–decoder based deep steganography framework 
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This work implements a deep learning–based image steganography system capable of:
 
@@ -21,7 +21,7 @@ This implementation is a **replication** of the original published architecture 
 
 ---
 
-## ⚙️ Hardware & Environment
+## Hardware & Environment
 
 - GPU: **NVIDIA RTX 4050**
 - Framework: TensorFlow 2.1x
@@ -30,7 +30,7 @@ This implementation is a **replication** of the original published architecture 
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - Dataset: Tiny ImageNet-200
 - Total images used for training: **1000**
@@ -46,7 +46,7 @@ This implementation is a **replication** of the original published architecture 
 
 ---
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 The model consists of:
 
@@ -68,7 +68,7 @@ The model consists of:
 
 ---
 
-## 🚀 Training Details
+## Training Details
 
 - Epochs: **1000**
 - Batch size: 32
@@ -78,7 +78,7 @@ The model consists of:
 
 ---
 
-## 📊 Results
+## Results
 
 ### Final Metrics
 - Secret RMSE : 11.4976
