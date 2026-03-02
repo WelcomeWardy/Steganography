@@ -7,8 +7,8 @@ TEST_DIR     = "/mnt/c/Users/jange/Downloads/archive/tiny-imagenet-200/val/image
 
 # ─── Data ──────────────────────────────────────────────────────────────────────
 IMAGE_SIZE     = (64, 64, 3)
-# Now loading 4000 training images total → 2000 cover + 2000 secret
-NUM_TRAIN      = 4000
+# Now loading 2000 training images total → 1000 cover + 1000 secret
+NUM_TRAIN      = 2000
 NUM_TEST       = 1000
 IMAGES_PER_CAT = 20          # 20 images per category × 200 categories = 4000
 NUM_CATEGORIES = 200
