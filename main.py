@@ -114,11 +114,11 @@ def main():
 
     # ── 4. Evaluation ─────────────────────────────────────────────────────────
     if not args.no_eval:
-        from evaluation.evaluate import evaluate
+        from evaluation.evaluate import evaluate_v1
         print("\n" + "=" * 60)
         print("STEP 4 – Evaluation")
         print("=" * 60)
-        results = evaluate(
+        results = evaluate_v1(
             encoder, decoder,
             input_S[:200], input_C[:200],
             full_loss_hist=full_loss_hist,
